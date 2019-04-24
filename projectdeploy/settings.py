@@ -125,4 +125,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
-
+# Allow host
+ALLOWED_HOSTS = ['testdeploydjangoducthao.herokuapp.com']
